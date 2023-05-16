@@ -14,7 +14,7 @@ const ProjectsGrid = ({ projects }) => {
   };
 
   return (
-    <div className="projects-grid">
+    <div className="projects-grid" id="projects">
       {projects.map((project) => (
         <div
           className="project-card"

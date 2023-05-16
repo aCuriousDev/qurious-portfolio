@@ -29,7 +29,7 @@ const ContactMe = () => {
   };
 
   return (
-    <div className="contact-container">
+    <div className="contact-container" id="contact">
       <div className="illustration-container">
         <img
           className="illustration"

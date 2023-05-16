@@ -2,7 +2,7 @@ import "./TechTimeline.css";
 
 const TechTimeline = ({ events }) => {
   return (
-    <div className="tech-timeline">
+    <div className="tech-timeline" id="timeline">
       <div className="timeline">
         {events.map((event) => (
           <div className="timeline-event" key={event.id}>
