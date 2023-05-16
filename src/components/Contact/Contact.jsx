@@ -4,7 +4,7 @@ export default function Contact() {
       <h2 className="contact-form-title">Contact Me</h2>
       <div className="form-group">
         <label htmlFor="name">Name</label>
-        <input type="text" name="name" id="name" minlength="2" required />
+        <input type="text" name="name" id="name" minLength="2" required />
       </div>
       <div className="form-group">
         <label htmlFor="email">Email</label>
