@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import { useState } from "react";
+import { MdClose } from "react-icons/md";
 import "./ProjectsGrid.css";
 
 const ProjectsGrid = ({ projects }) => {
@@ -34,7 +35,7 @@ const ProjectsGrid = ({ projects }) => {
         <div className="modal" onClick={handleCloseProject}>
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
             <button className="close-button" onClick={handleCloseProject}>
-              Close
+              <MdClose />
             </button>
             <h2>{selectedProject.title}</h2>
             <img

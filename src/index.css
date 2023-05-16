@@ -36,3 +36,24 @@ body {
   }
 
 /* CSS reset end */
+
+/* Theme Styling */
+:root {
+  --background-color: hsla(226, 93%, 5%, 1);
+  --text-color: hsla(0, 0%, 100%, 1);
+  --accent-color: rgb(46, 119, 255);
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+}
+
+#root {
+  display: grid;
+}

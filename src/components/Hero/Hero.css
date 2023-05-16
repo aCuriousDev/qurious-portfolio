@@ -19,7 +19,7 @@
   }
   
   .hero-typewriter {
-    color: red;
+    color: var(--accent-color);
     font-weight: bold;
   }
   

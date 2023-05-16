@@ -1,4 +1,4 @@
-import { Typewriter, Cursor } from "react-simple-typewriter";
+import { Typewriter } from "react-simple-typewriter";
 // import heroImage from "./images/hero-image.png";
 import "./Hero.css";
 
@@ -11,7 +11,7 @@ const Hero = () => {
           <span className="hero-typewriter">
             <Typewriter
               words={["Eat", "Sleep", "Code", "Repeat!"]}
-              loop={5}
+              loop={0}
               cursor
               typeSpeed={70}
               deleteSpeed={50}
